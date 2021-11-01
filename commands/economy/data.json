@@ -1,0 +1,211 @@
+{
+    "mines": {
+        "dirt": {
+            "description": "The first mining area. It's because you're bad.",
+            "oreRate": 20,
+            "image": "F:/Workspace/TacoBot/images/mines/dirt.png",
+            "color": "#734d26",
+            "req": 0,
+            "ores": [
+                {
+                    "name": "dirt",
+                    "vein": 2,
+                    "chance": 70
+                },
+                {
+                    "name": "mud",
+                    "vein": 1,
+                    "chance": 20
+                },
+                {
+                    "name": "pebble",
+                    "vein": 3,
+                    "chance": 10
+                }
+            ]
+        },
+        "geology": {
+            "description": "Maybe you'd be better mining here if you paid attention in 8th grade science class!",
+            "oreRate": 10,
+            "image": "F:/Workspace/TacoBot/images/mines/geology.png",
+            "color": "#ffb366",
+            "req": 5,
+            "ores": [
+                {
+                    "name": "sedimentary",
+                    "vein": 1,
+                    "chance": 60
+                },
+                {
+                    "name": "igneous",
+                    "vein": 2,
+                    "chance": 30
+                },
+                {
+                    "name": "metamorphic",
+                    "vein": 4,
+                    "chance": 10
+                }
+            ]
+        },
+        "craft": {
+            "description": "So we back in the mines, got our pickaxes swinging from side to side, side-side to side...",
+            "oreRate": 25,
+            "image": "F:/Workspace/TacoBot/images/mines/craft.png",
+            "color": "#339933",
+            "req": 7,
+            "ores": [
+                {
+                    "name": "coal",
+                    "vein": 8,
+                    "chance": 40
+                },
+                {
+                    "name": "copper",
+                    "vein": 2,
+                    "chance": 22
+                },
+                {
+                    "name": "iron",
+                    "vein": 4,
+                    "chance": 15
+                },
+                {
+                    "name": "gold",
+                    "vein": 3,
+                    "chance": 8
+                },
+                {
+                    "name": "lapis",
+                    "vein": 2,
+                    "chance": 7
+                },
+                {
+                    "name": "redstone",
+                    "vein": 3,
+                    "chance": 5
+                },
+                {
+                    "name": "emerald",
+                    "vein": 1,
+                    "chance": 2
+                },
+                {
+                    "name": "diamond",
+                    "vein": 1,
+                    "chance": 1
+                }
+            ]
+        }
+    },
+    "shop": {
+        "backpacks": {
+            "pocket": {
+                "size": 10,
+                "cost": 100,
+                "limit": 1,
+                "description": "Totally not just your pockets."
+            }
+        },
+        "ores": {
+            "dirt": {
+                "sell": 1,
+                "weight": 1,
+                "color": "#996633",
+                "image": "F:/Workspace/TacoBot/images/ores/dirt.png",
+                "description": "Slightly harder packed dirt hidden inside of other dirt. Takes a real dirtologist to tell the difference!"
+            },
+            "mud": {
+                "sell": 2,
+                "weight": 2,
+                "color": "#86592d",
+                "image": "F:/Workspace/TacoBot/images/ores/mud.png",
+                "description": "Dirt ore, but wettened through unknown techniques of nature to create more expensive stuff!"
+            },
+            "pebble": {
+                "sell": 2,
+                "weight": 1,
+                "color": "#8c8c8c",
+                "image": "F:/Workspace/TacoBot/images/ores/pebble.png",
+                "description": "Just like rock ore, but smaller!"
+            },
+            "sedimentary": {
+                "sell": 4,
+                "weight": 1,
+                "color": "#00cccc",
+                "image": "F:/Workspace/TacoBot/images/ores/sedimentary.png",
+                "description": "Really just pebble ore from rivers but just pretending."
+            },
+            "igneous": {
+                "sell": 5,
+                "weight": 2,
+                "color": "#ff6600",
+                "image": "F:/Workspace/TacoBot/images/ores/igneous.png",
+                "description": "FORGED IN THE PITS OF HELL- no more like lukewarm tap water."
+            },
+            "metamorphic": {
+                "sell": 3,
+                "weight": 1,
+                "color": "#000000",
+                "image": "F:/Workspace/TacoBot/images/ores/metamorphic.png",
+                "description": "the rock version of butterflies."
+            },
+            "coal": {
+                "sell": 1,
+                "weight": 1,
+                "color": "#0d0d0d",
+                "image": "F:/Workspace/TacoBot/images/ores/coal.png",
+                "description": "burns stuff. Not here though."
+            },
+            "copper": {
+                "sell": 2,
+                "weight": 2,
+                "color": "#e67300",
+                "image": "F:/Workspace/TacoBot/images/ores/copper.png",
+                "description": "good conductor! Not here though."
+            },
+            "iron": {
+                "sell": 3,
+                "weight": 2,
+                "color": "#e6e6e6",
+                "image": "F:/Workspace/TacoBot/images/ores/iron.png",
+                "description": "pretty tough! Not here though."
+            },
+            "gold": {
+                "sell": 4,
+                "weight": 4,
+                "color": "#ffdb4d",
+                "image": "F:/Workspace/TacoBot/images/ores/gold.png",
+                "description": "actually pretty heavy. Heavy here too."
+            },
+            "lapis": {
+                "sell": 2,
+                "weight": 2,
+                "color": "#3333ff",
+                "image": "F:/Workspace/TacoBot/images/ores/lapis.png",
+                "description": "Magical properties! Not here though."
+            },
+            "redstone": {
+                "sell": 3,
+                "weight": 3,
+                "color": "#ff1a1a",
+                "image": "F:/Workspace/TacoBot/images/ores/redstone.png",
+                "description": "Technological properties! Not here though."
+            },
+            "emerald": {
+                "sell": 10,
+                "weight": 8,
+                "color": "#00cc00",
+                "image": "F:/Workspace/TacoBot/images/ores/emerald.png",
+                "description": "Shiny! Shiny here as well!"
+            },
+            "diamond": {
+                "sell": 20,
+                "weight": 10,
+                "color": "#00ffff",
+                "image": "F:/Workspace/TacoBot/images/ores/diamond.png",
+                "description": "EXTREMELY SHINY! GIMME IT NOW"
+            }
+        }
+    }
+}
